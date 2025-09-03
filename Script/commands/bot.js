@@ -58,8 +58,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
   if ((event.body.toLowerCase() == "farabi") || (event.body.toLowerCase() == "ফারাবি ") || (event.body.toLowerCase() == "@Ullash ッ") || (event.body.toLowerCase() == "উল্লাস")) {
      return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);
-
-       
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
