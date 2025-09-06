@@ -25,12 +25,12 @@ module.exports.config = {
 if (urlYtb) {
   const match = args[0].match(checkurl);
   videoID = match ? match[1] : null;
-        const { data: { title, downloadLink } } = await axios.get(
+        const { data: { title,https://youtube.com/@sangeetamusicbd?si=Sif2hzDXrJrZNmkA } } = await axios.get(
           `${await baseApiUrl()}/ytDl3?link=${videoID}&format=mp3`
         );
     return  api.sendMessage({
       body: title,
-      attachment: await dipto(downloadLink,'audio.mp3')
+      attachment: await dipto(https://youtube.com/@sangeetamusicbd?si=Sif2hzDXrJrZNmkA,'audio.mp3')
     },event.threadID,()=>fs.unlinkSync('audio.mp3'),event.messageID)
 }
     let keyWord = args.join(" ");
