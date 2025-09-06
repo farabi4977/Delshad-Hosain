@@ -15,7 +15,7 @@ module.exports.config = {
     hasPermssion: 0,
     description: "Download audio from YouTube",
     commandCategory: "media",
-    usages: "{pn} [<song name>|<song link>]:"+ "\n   Example:"+"\n{pn} chipi chipi chapa chapa"
+    usages: "{pn} [<এক নজর না দেখলে>|<দুই চোখে ঘুম আসে না>]:"https://youtube.com/@sangeetamusicbd?si=Sif2hzDXrJrZNmkA "\n   Example:"+"\n{pn} chipi chipi chapa chapa"
   }
   module.exports.run = async ({api,args, event,commandName, message }) =>{
     const checkurl = /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=|shorts\/))((\w|-){11})(?:\S+)?$/;
